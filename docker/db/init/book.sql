@@ -1,8 +1,8 @@
--- drop sample table
-DROP TABLE IF EXISTS SAMPLE;
+-- drop book table
+DROP TABLE IF EXISTS BOOK;
 
 -- create sample table
-CREATE TABLE IF NOT EXISTS SAMPLE (
+CREATE TABLE IF NOT EXISTS BOOK (
     id serial PRIMARY KEY,
     title text,
     description text

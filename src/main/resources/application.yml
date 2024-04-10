@@ -1,6 +1,6 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/quizdb
+    url: jdbc:postgresql://localhost:5432/bookstore
     username: postgres
     password: postgres
